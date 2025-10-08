@@ -11,7 +11,17 @@ else :
 for i in range(0,10):
     print(i)
 
-contador = 1
-while contador <= 10:
+contador = 2
+while contador <= 21000:
         print(contador)
-        contador+=1
+        contador*=10
+
+
+numero = 1 
+
+for numero in range(0,5):
+    if numero % 2==0:
+        print( numero,"par")
+    else :
+        print(numero,"impar")
+
