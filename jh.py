@@ -17,9 +17,9 @@ while contador <= 21000:
         contador*=10
 
 
-numero = 1 
+numero = 1
 
-for numero in range(0,5):
+for numero in range(0,10):
     if numero % 2==0:
         print( numero,"par")
     else :

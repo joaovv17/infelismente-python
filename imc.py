@@ -15,8 +15,8 @@ def classificar_imc(imc):
     elif imc <44.9:
         return"obesidade 3"
     
-peso = 42
-altura = 1.70
+peso =42 
+altura = 1.73
 imc = calcular_imc(peso,altura)
 classificacaoIMC = classificar_imc(imc)
 
